@@ -1,0 +1,1 @@
+// This lesson covers variables, which are basically just bits of information that your program can interact with.

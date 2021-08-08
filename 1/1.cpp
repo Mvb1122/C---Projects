@@ -6,6 +6,7 @@
 // How do you write C++ code?
     // Since C++ (and the C languages) are compiled, you have to use a compiler.
     // The files which contain the source code use the extension `.cpp`, which stands for C Plus Plus.
+        // They can also end with `.h` but we'll get to that later.
     // C++ is also case sensitive, which means we can have two variables with the same name, but different capitalization and it'll be fine.
         // Confusing, sure, although it'll be fine.
     // You can use as many tabs, empty spaces, and newlines as you want, the compiler will filter it out.
