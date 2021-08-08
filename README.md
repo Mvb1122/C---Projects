@@ -12,3 +12,4 @@
 - #8 shows how to implement the Quadratic Formula, for solving the x's of a quadratic equation.
 - #9 covers Datatype Modifiers and Type conversion.
 - #10 covers conditionals.
+- #11 is a game of Rock, Paper, Scissors, Lizard, Spock.

@@ -15,6 +15,7 @@
         // || OR
         // == Equal to
         // != Not Equal to
+        // ! Unary Not (Inverts Value)
 
 // I'm not going to really talk about how to properly use conditionals, since you'd probably learn it better from Codecademy directly.
 #include <iostream>
