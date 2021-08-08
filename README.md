@@ -8,3 +8,4 @@
 - #4 covers variables, which you'll be familiar with if you've done Algebra.
 - #5 covers math.
 - #6 showcases how you can get user input.
+- #7 shows how to implement the `C = (F - 32) / 1.8` formula for converting Fahrenheit temperatures to Celsius.
