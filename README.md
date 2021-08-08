@@ -9,3 +9,6 @@
 - #5 covers math.
 - #6 showcases how you can get user input.
 - #7 shows how to implement the `C = (F - 32) / 1.8` formula for converting Fahrenheit temperatures to Celsius.
+- #8 shows how to implement the Quadratic Formula, for solving the x's of a quadratic equation.
+- #9 covers Datatype Modifiers and Type conversion.
+- #10 covers conditionals.
