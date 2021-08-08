@@ -8,12 +8,14 @@
     // The files which contain the source code use the extension `.cpp`, which stands for C Plus Plus.
     // C++ is also case sensitive, which means we can have two variables with the same name, but different capitalization and it'll be fine.
         // Confusing, sure, although it'll be fine.
+    // You can use as many tabs, empty spaces, and newlines as you want, the compiler will filter it out.
+    // Comments are the same as in JavaScript or Java, just put a `//` before a line to comment it out.
 
 // What does a `Hello World` look like, in C++?
     // Calls for the iostream package to be imported, like Java's import statements.
     // It's known as a `Pre-processor Directive`, since it's executed in compilation.
 #include <iostream>
-    // Create the main() method, which is run on startup.
+    // Create the main() method, which returns an integer, and is run on startup.
 int main() {
     // Call the character out method of the C++ Standard library and pass the String literal "Hello World!\n" to it.. (STD stands for standard library, apparently.)
   std::cout << "Hello World!\n";
@@ -21,6 +23,8 @@ int main() {
     // Additionally, we're not overwriting the entirety of the c-out stream, since it's a stream, we're only appending to it.
   std::cout << "Hello again :)\n";
 
+  return 0;
+    // Return the integer literal 0.
 }
 
 // How do we run C++ code?
