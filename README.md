@@ -16,3 +16,5 @@
 - #12 covers loops.
 - #13 is a short choose-your-own adventure game I made for CodeCademy.
 - #14 covers Vectors, which are C++'s version of Arrays.
+- #15 covers Functions.
+- #16 is a mini-lesson on running code from another file.
