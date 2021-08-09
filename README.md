@@ -13,3 +13,5 @@
 - #9 covers Datatype Modifiers and Type conversion.
 - #10 covers conditionals.
 - #11 is a game of Rock, Paper, Scissors, Lizard, Spock.
+- #12 covers loops.
+- #13 is a short choose-your-own adventure game I made for CodeCademy.

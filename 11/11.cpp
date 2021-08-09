@@ -75,4 +75,7 @@ int main() {
       break;
   }
   std::cout << "The computer chose " << computerChoice << ".\n";
+
+  std::cout << "Press enter to close the game.";
+  std::cin >> computer;
 }
