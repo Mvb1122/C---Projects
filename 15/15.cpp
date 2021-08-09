@@ -10,9 +10,10 @@
 
 // How do we write a function?
 #include <iostream>
-int multiply(int param1, int param2) {
+int multiply(int param1, int param2 = 2) {
     // First, we have the return type of the function (what it gives back to the calling program), and then we have the name of the function.
         // The return type can be `void` if your function doesn't return anything.
+        // You can set default parameters (what's used if you don't enter the parameter) by placing an `=` and then a value after the declaration.
     // Then, we have the parameters, in circle brackets. It's formatted like: (class name, class name)
         // In this case, the case is int and the names are param1 and param2.
     // Body of the function...
@@ -30,4 +31,14 @@ int main() {
     // Like this:
     int number = multiply(2, 2);
     std::cout << "2 * 2 = " << number << "\n";
+
+    // Called with the default parameters it looks like:
+    number = multiply(2);
+    std::cout << "2 * a secret number = " << number << "\n";
+
+    // Please be aware that default parameters are filled in from left to right, with the ones you pass being squeezed forward,
+        // So you can't have any empty spots in your function usages which you expect to be filled.
+        // EG: You can't have a function with a default value in the middle of the declaration, it **has** to be at the end.
+        // EG: We couldn't have multiply's signature be multiply(int param1 =2, int param2)
+            // Because calling this variant of multiply would just either cause the program not to compile or unexpected output at runtime. (Read: an error.)
 }
