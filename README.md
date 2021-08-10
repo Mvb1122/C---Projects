@@ -18,3 +18,4 @@
 - #14 covers Vectors, which are C++'s version of Arrays.
 - #15 covers Functions.
 - #16 is a mini-lesson on running code from another file.
+- #17 is a game of tic-tak-toe played via console by two players.  (Undocumented)

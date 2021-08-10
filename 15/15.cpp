@@ -25,6 +25,15 @@ int multiply(int param1, int param2 = 2) {
     std::cout << "This will not be printed.";
 }
 
+// What is Function Overloading?
+    // Function overloading is the practice of giving identical names to functions with different signatures.
+    // In order to do it, the function has to output the same type, and have either a different type of parameters or have a different number of parameters.
+    // It's done like this:
+int multiply(double param1, double param2) {
+    // It's common for overloaded functions just to call the normal version, but with converted values.
+    return multiply((int) param1, (int) param2);
+}
+
 // How do we call a function?
     // Simply put the function's name, then put the parameters inside the brackets to call it.
 int main() {
