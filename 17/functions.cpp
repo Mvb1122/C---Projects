@@ -56,7 +56,7 @@ std::string detectWin(std::vector<char> boardState, char symbol) {
 
 std::string printWin(std::string state, int playerNum) {
     if (state == "win") {
-        std::string output = "Congrats, Player " + std::to_string(playerNum) + ", you won.";
+        std::string output = "Congrats, Player " + std::to_string(playerNum) + ", you won.\n";
         return output;
     }
     return " ";
