@@ -45,8 +45,8 @@ int main() {
     
     // We can only call destructors on "dynamically allocated" variable, which are just objects created using the `new` keyword, like in Java.
     // We'll go into the difference between statically and dynamically allocated variable later on, if I ever get around to it.
-    // Unfortunately, if I wanted to make ExampleClass dynamic, I'd have to refactor the whole program, and that means erasing my comments, so I'm not going to do it now.
-        // I'll do it in a future one, probably.
+    // Unfortunately, if I wanted to make ExampleClass dynamic, I'd have to refactor the whole program, and that means erasing my comments,
+    // so I saved it and did it in #20.
 
 // Can we create vectors from our classes?
     // Yes, we do it like so:
