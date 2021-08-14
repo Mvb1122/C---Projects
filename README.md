@@ -20,3 +20,7 @@
 - #16 is a mini-lesson on running code from another file.
 - #17 is a game of tic-tak-toe played via console by two players.  (Undocumented)
 - #18 covers Classes, which is the whole reason I started learning Java, and by extension, C++.
+- #19 covers pointers & references, which allow variables to be referenced, instead of copied.
+
+# Todo
+- #20 which will cover Dynamic Classes and destruction.
