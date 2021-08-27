@@ -91,6 +91,10 @@ int main() {
   runGame();
   int i = 1;
   while (true) {
+    std::cout << "\nContinue? (Y/N)";
+    std::string input;
+    std::cin >> input;
+    if (input == "N") break;
     std::cout << "\n\nRestarting game, just close the window if you want to end it. (This is run #" << i << ", by the way.)\n\n";
     runGame();
     i++;

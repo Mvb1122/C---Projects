@@ -1,0 +1,2 @@
+language = "shell"
+run = "./runAll.sh"
