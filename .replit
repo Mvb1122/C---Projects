@@ -1,2 +1,2 @@
 language = "shell"
-run = "./21/run.sh"
+run = "./runAll.sh"

@@ -91,7 +91,7 @@ g++ 16.cpp
 echo -e "\n\n------------ Next File ------------"
 
 cd "../17";
-g++ functions.cpp ttt.cpp
+g++ ttt.cpp functions.cpp
 ./a.out
 
 echo -e "\n\n------------ Next File ------------"
