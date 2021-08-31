@@ -15,7 +15,7 @@
 - #11 is a game of Rock, Paper, Scissors, Lizard, Spock.
 - #12 covers loops.
 - #13 is a short choose-your-own adventure game I made for CodeCademy.
-- #14 covers Vectors, which are C++'s version of Arrays.
+- #14 covers Vectors, which are C++'s version of Arrays. (But not exactly...)
 - #15 covers Functions.
 - #16 is a mini-lesson on running code from another file.
 - #17 is a game of tic-tak-toe played via console by two players.  (Undocumented)

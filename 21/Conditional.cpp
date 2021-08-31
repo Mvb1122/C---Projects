@@ -74,10 +74,11 @@ std::vector<std::string> Conditional::splitStringToVector(std::string input, cha
    for (int i = 0; i < chars.size(); i++) {
        if (chars[i] == ' ') {
            selectedPart++;
+           std::cout << "Skipping Element #" << i << ": " << chars[i] << "\n";
            // parts.push_back("${replaceme}");
        } else {
            std::cout << "Part accepted, index " << i << ": " << chars[i] << "\n";
-           parts[selectedPart] = parts.at(i) + chars[i];
+           parts[selectedPart] = parts.at(selectedPart) + chars[i];
            std::cout << "Its line is: " << parts.at(selectedPart) << ".\n";
        }
    }
@@ -96,3 +97,4 @@ std::vector<std::string> Conditional::splitStringToVector(std::string input, cha
 
     return parts;
 }
+
