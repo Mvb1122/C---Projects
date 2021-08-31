@@ -22,3 +22,4 @@
 - #18 covers Classes, which is the whole reason I started learning Java, and by extension, C++.
 - #19 covers pointers & references, which allow variables to be referenced, instead of copied.
 - #20 covers Dynamic Classes and destruction.
+- #21 is an example program that converts a string to a runnable conditional.

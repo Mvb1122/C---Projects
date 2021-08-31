@@ -109,6 +109,6 @@ g++ 19.cpp
 echo -e "\n\n------------ Next File ------------"
 
 
-cd "../20";
-g++ 20.cpp dynclass.cpp
+cd "../21";
+g++ 21.cpp Conditional.cpp
 ./a.out
