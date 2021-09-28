@@ -29,6 +29,6 @@ int main() {
 }
 
 // How do we run C++ code?
-    // After using a compiler (Control Shift B in VSC if you set it up properly,) we open a termanal to the folder, and run it like:
+    // After using a compiler (Control Shift B in VSC if you set it up properly,) we open a terminal to the folder, and run it like:
     // .\1
-    // This causes the termanal to search the local folder for a file called 1.exe, and run it.
+    // This causes the terminal to search the local folder for a file called 1.exe, and run it.
